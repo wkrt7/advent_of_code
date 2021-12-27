@@ -9,4 +9,3 @@ for m1,m2 in zip(measurements[:-1],measurements[1:]):
     if m1 < m2:
         cnt +=1
 print(cnt)
-print(input_path )
